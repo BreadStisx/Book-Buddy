@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+button:focus {
+    outline: 2px solid transparent;
+    outline-offset: 2px;
+}
+
+.mood-card {
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+.mood-card:hover {
+    transform: translateY(-5px);
+} 

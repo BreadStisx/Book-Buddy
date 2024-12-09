@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Buddy - Find Your Next Read</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="styles.css" rel="stylesheet">
+</head>
+<body class="bg-gray-50">
+    <nav class="bg-white shadow-md fixed w-full top-0 z-50">
+        <div class="container mx-auto px-4 py-4">
+            <a href="/" class="text-2xl font-bold flex items-center gap-2">
+                📚 Book Buddy
+            </a>
+        </div>
+    </nav>
+
+    <main class="container mx-auto px-4 py-8 mt-20">
+        <div class="text-center mb-12">
+            <h1 class="text-5xl font-bold mb-4">Find Your Perfect Book</h1>
+            <p class="text-xl text-gray-600">Choose your mood and let us recommend your next reading adventure</p>
+        </div>
+        
+        <div id="moodGrid" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <!-- Moods will be inserted here by JavaScript -->
+        </div>
+    </main>
+
+    <footer class="bg-white shadow-inner mt-16">
+        <div class="container mx-auto px-4 py-8 text-center text-gray-600">
+            <p>© 2024 Book Buddy. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html> 
